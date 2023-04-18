@@ -112,7 +112,7 @@
 }
 
 .main {
-  background: url('/src/img/bg.jpg') no-repeat center -80px;
+  background: url('src/img/bg.jpg') no-repeat center -80px;
 }
 
 /*Popup (Don't need to check)*/
