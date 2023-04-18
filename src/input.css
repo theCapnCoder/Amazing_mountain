@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --neon-green: #39FF14;
+  --hot-pink: #FF69B4;
+  --electric-blue: #00FFFF;
+  --acid-yellow: #F0FF00;
+  --bright-purple: #BF00FF;
+  --electric-orange: #FFA500;
+  --fluorescent-red: #FF1493;
+  --lime-green: #00FF00;
+  --coral-pink: #FF7F50;
+  --sky-blue: #87CEEB;
+  --magenta: #FF00FF;
+  --canary-yellow: #FFFF99;
+  --turquoise: #40E0D0;
+  --vivid-red: #FF0000;
+  --neon-orange: #FFA343;
+  --fuschia-pink: #FF00AF;
+  --bright-cyan: #00FFFF;
+  --chartreuse: #7FFF00;
+  --deep-saffron: #FF9933;
+  --electric-purple: #CC00FF;
+}
+
+.text_h1 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 102.8%;
+  color: #0C0E36;
+}
+
+.text_h3 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3A3A3A;
+}
+
+.text_button {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.text_button .outlined {
+  color: #F70058;
+}
+
+.text_widget {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.075em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.text_widget_large {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.text_link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #0C0E36;
+}
