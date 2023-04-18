@@ -17,10 +17,36 @@
 
 <body>
   <header>
-    <div class="container m-auto border-8 mt-10 flex">
-      <div class="pl-[196px] flex-1 bg-orange-500">logo</div>
-      <div class="max-w-348px px-[54px] bg-green-500">menu</div>
-      <div class="max-w-[248px] bg-lime-500">widget</div>
+    <div class="container h-[83px] m-auto flex items-center mt-10 ">
+      <div class="pl-[196px] flex-1 cursor-pointer">
+        <img src="src/img/logo.png" alt="logo">
+      </div>
+
+      <nav class="pr-[54px]">
+        <ul class="flex w-[348px] justify-between">
+          <li><a href="#" class="text_link uppercase">Ski</a></li>
+          <li><a href="#" class="text_link uppercase">Golf</a></li>
+          <li><a href="#" class="text_link uppercase">Hiking</a></li>
+          <li><a href="#" class="text_link uppercase">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="max-w-[248px] flex items-center h-full bg-lime-500">
+        <div class="justify-self-center h-full pl-[11px] pr-[13px] pt-[24px] bg-rosy-blaze">
+          <img src="src/img/weather.svg" alt="weather">
+        </div>
+        <div class="h-full w-[173px] pl-[9px] pt-[17px] pr-[13px] bg-midnight-blueberry">
+          <div class="flex justify-between items-center">
+            <p class="text_widget">Current weather</p>
+            <p class="text_widget_large">-6°C</p>
+          </div>
+          <div class="max-w-[154px] bg-slate-lavender h-[1px] my-2"></div>
+          <div class="flex justify-between items-center">
+            <p class="text_widget">Recent snowfall</p>
+            <p class="text_widget_large">35cm</p>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -32,6 +58,33 @@
     </div>
 
   </sectioin>
+
+
+  <section class="border-8 h-[100px] flex">
+    <div class="bg-indigo-400">Left</div>
+    <div class="border-2 border-blue-800 flex-1 flex flex-col">
+      <div class="border-2 pt-2 px-3 h-full">
+        <div class="bg-yellow-400 basis-1/2 flex justify-between">
+          <p>Text</p>
+          <p>-6C</p>
+        </div>
+        <div class="bg-fuchsia-400 basis-1/2">2</div>
+      </div>
+    </div>
+    <div class="bg-green-400 max-w-[300px] flex-1">
+      <div class="px-2 pt-3">
+        <div class="flex justify-between">
+          <p class="text_widget">Current weather</p>
+          <p class="text_widget_large">-6°C</p>
+        </div>
+        <div class="bg-gray-500 basis-1/2 flex justify-between">
+          <p>Recent snowfall</p>
+          <p>35cm</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 </body>
 
 </html>
