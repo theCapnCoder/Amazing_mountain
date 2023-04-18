@@ -758,11 +758,21 @@ video {
   background: #F70058;
 }
 
+.type_button:hover {
+  background: var(--acid-yellow);
+  color: var(--turquoise)
+}
+
 .type_button.outlined {
   background: none;
   padding: 10px 22px;
   border: 5px solid #F70058;
   color: #F70058;
+}
+
+.type_button.outlined:hover {
+  border-color: var(--acid-yellow);
+  color: var(--turquoise);
 }
 
 .text_widget {
